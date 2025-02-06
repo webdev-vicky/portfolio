@@ -1,0 +1,65 @@
+.overflow {
+	width: 100%;
+	float: left;
+}
+
+ul.no-bullt > li {
+	list-style: none;
+}
+
+.remove_dot_from_ul li.add_space {
+	float: left !important;
+	background-color: #f98e0d;
+	width: 25px !important;
+	height: 20px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 24px !important;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 5px;
+	cursor: pointer;
+	margin-left: 0px !important;
+	padding: 2px 1px;
+	line-height: 15px;
+	display: none;
+}
+
+.remove_dot_from_ul li.remove_space {
+	line-height: 15px;
+	float: left !important;
+	background-color: #f98e0d;
+	width: 25px !important;
+	height: 20px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 24px !important;
+	color: #fff;
+	font-weight: 700;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	padding: 1px 1px;
+	display: none;
+}
+
+.remove_dot_from_ul .sab {
+	float: left !important;
+	background-color: #f98e0d;
+	/* text-align: center; */
+	border-radius: 3px;
+	/* font-size: 9px !important; */
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 5px;
+	cursor: pointer;
+	display: none;
+	margin-left: 5px !important;
+	line-height: 15px;
+	width: 25px;
+	height: 20px;
+}
+
+.actResume table{
+	width: 100%;
+}

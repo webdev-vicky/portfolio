@@ -1,0 +1,858 @@
+@font-face {
+	font-family: Arial;
+	src: url(https://asset.sriresume.com/templateCss/ArialMT.woff);
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding-right: 0;
+}
+.smart-and-Balanced .ref-heading,
+.leanAndCool-resume .ref .ref-heading,
+.modern-conemporary .ref-heading,
+.corporateWithStyle-resume .references-content .ref-heading,
+.sr_tmp15 .ref_15 .sr_t_rt .ref_hd,
+.traditional-Heavy-resume .resume-body .section .section-head .section-title,
+.traditional-Light-resume .resume-body .section .section-head .section-title,
+.corporateWithStyle-resume .resume-content .section .title,
+.the-seeker-resume .resume-body .section,
+.smart-and-Balanced .resume-body .section .section-head .section-head-title,
+.leanAndCool-resume .resume-body .section .section-header,
+.corporate-resume .resume-content .section .title,
+.modern-conemporary .resume-body .section .section-head .section-head-title,
+.corporate-resume .references-content .ref-heading,
+.temp9_ref.sr_tmp9 .re_ttl,
+.resume-nip-tuck .header,
+.resume-template-1 .header,
+.cnt_hed,
+.resume-nip-tuck .resume-body .section .section-name,
+.resume-nip-tuck .reference-body .ref_heading,
+.resume-template-1 .section .section-label,
+.resume-temp-8 .section .section-title,
+.resume-temp-6 .resume-body .section .section-title,
+.resume-temp-6 .references .ref-head,
+.resume-temp-8 .reference .ref-head,
+.rsm4 .rsm_cntt .cntt_hed,
+.rsm5 .rsm_cntt .cntt_hed,
+.rsm3 .rsm_cntt .cntt_hed,
+.rsm1 .rsm_cntt .cntt_hed,
+.sr_tmp17 .sr_t_hd .s_u_dp,
+.sr_tmp17 .sr_t_hd .sd_w_ic,
+.content_item .is-editable-sec {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+.sr_tmp16 .sr_tw_prt .full_wd:hover .edit_section,
+.traditional-Heavy-resume .resume-header .user-img:hover .edit_section,
+.traditional-Heavy-resume .resume-header .user-details:hover .edit_section,
+.traditional-Light-resume .resume-header .user-details:hover .edit_section,
+.traditional-Light-resume .resume-header .user-img:hover .edit_section,
+.sr_tmp_mn.sr_tmp18 .sr_hd_tp:hover .edit_section,
+.corporateWithStyle-resume .header .photo-section .user-info:hover .edit_section,
+.corporateWithStyle-resume .header .photo-section > .not_blur:hover .edit_section,
+.sr_tmp_mn.sr_tmp17 .sr_hd_tp:hover .edit_section,
+.sr_tmp16 .sr_hd_tp .flt_lft .det:hover .edit_section,
+.sr_tmp16 .sr_hd_tp .flt_lft .d_p:hover .edit_section,
+.sr_tmp9 .hed .hd_det > .d_p:hover .edit_section,
+.sr_tmp9 .hed .dets:hover .edit_section,
+.sr_tmp11 .sr_hd_tp:hover .edit_section,
+.smart-and-Balanced .header .user-info:hover .edit_section,
+.smart-and-Balanced .header .user-photo:hover .edit_section,
+.sr_tmp15 .sr_hd_tp:hover .edit_section,
+.leanAndCool-resume .header .user:hover .edit_section,
+.leanAndCool-resume .header .user-photo:hover .edit_section,
+.sr_tmp14 .sr_t_hd .s_u_dp:hover .edit_section,
+.modern-conemporary .header .user-info:hover .edit_section,
+.modern-conemporary .header .user-photo:hover .edit_section,
+.corporate-resume .header .photo-section .not_blur:hover .edit_section,
+.corporate-resume .header .photo-section .user-info:hover .edit_section,
+.smart-and-Balanced .ref-heading:hover .edit_section,
+.leanAndCool-resume .ref .ref-heading:hover .edit_section,
+.modern-conemporary .ref-heading:hover .edit_section,
+.corporateWithStyle-resume .references-content .ref-heading:hover .edit_section,
+.corporate-resume .references-content .ref-heading:hover .edit_section,
+.temp9_ref.sr_tmp9 .re_ttl:hover .edit_section,
+.sr_tmp15 .ref_15 .sr_t_rt .ref_hd:hover .edit_section,
+.traditional-Heavy-resume .resume-body .section .section-head .section-title:hover .edit_section,
+.traditional-Light-resume .resume-body .section .section-head .section-title:hover .edit_section,
+.corporateWithStyle-resume .resume-content .section .title:hover .edit_section,
+.the-seeker-resume .resume-body .section .section-head:hover .edit_section,
+.smart-and-Balanced .resume-body .section .section-head .section-head-title:hover .edit_section,
+.leanAndCool-resume .resume-body .section .section-header:hover .edit_section,
+.corporate-resume .resume-content .section .title:hover .edit_section,
+.modern-conemporary .resume-body .section .section-head .section-head-title:hover .edit_section,
+.resume-nip-tuck .resume-body .section .section-name:hover .edit_section,
+.resume-nip-tuck .header:hover .edit_section,
+.resume-template-1 .header:hover .edit_section,
+.resume-nip-tuck .reference-body .ref_heading:hover .edit_section,
+.resume-template-1 .resume-body .section .section-label:hover .edit_section,
+.resume-template-1 .refernece .section .section-label:hover .edit_section,
+.cntt_hed:hover .edit_section,
+.cnt_hed:hover .edit_section,
+.resume-temp-8 .section .section-title:hover .edit_section,
+.resume-temp-8 .reference .ref-head:hover .edit_section,
+.resume-temp-7 .resume-body .section .section-title:hover .edit_section,
+.resume-temp-6 .resume-body .section .section-title:hover .edit_section,
+.resume-temp-6 .resume-body .references .ref-head:hover .edit_section,
+.resume-temp-7 .references .ref-head:hover .edit_section,
+.rsm4 .rsm_cntt .cntt_hed:hover .edit_section,
+.rsm5 .rsm_cntt .cntt_hed:hover .edit_section,
+.rsm4 .rsm_cntt .cntt_hed:hover .edit_section,
+.rsm1 .rsm_cntt .cntt_hed:hover .edit_section,
+.sr_tmp17 .sr_t_hd .s_u_dp:hover .edit_section,
+.sr_tmp17 .sr_t_hd .sd_w_ic:hover .edit_section,
+.content_item .is-editable-sec:hover .edit_section {
+	display: block;
+}
+.resume-nip-tuck .resume-body .section .section-name,
+.resume-nip-tuck .reference-body .ref_heading,
+.resume-template-1 .section .section-label,
+.resume-temp-8 .section .section-title,
+.resume-temp-8 .reference .ref-head,
+.resume-temp-7 .resume-body .section .section-title,
+.resume-temp-7 .references .ref-head,
+.resume-temp-6 .resume-body .section .section-title,
+.resume-temp-6 .resume-body .references .ref-head,
+.rsm4 .rsm_cntt .cntt_hed,
+.rsm5 .rsm_cntt .cntt_hed,
+.rsm3 .rsm_cntt .cntt_hed {
+	float: unset !important;
+}
+.tamplate27 .section,
+.tamplate28 .section,
+.tamplate29 .rsm_cntt,
+.tamplate30 .section,
+.tamplate31 .section,
+.tamplate32 .section,
+.tamplate33 .rsm_cntt,
+.rsm5 .rsm_cntt,
+.rsm4 .rsm_cntt,
+.rsm3 .rsm_cntt {
+	clear: both;
+}
+.edit_section {
+	background: #fff;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	z-index: 6;
+	top: -2px;
+	display: none;
+	padding: 5px 0;
+	box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
+}
+.edit_section ul {
+	list-style: none;
+}
+.edit_section ul li {
+	float: left;
+	width: 35px;
+	height: 35px;
+	background: #d5d4d4;
+	margin: 11px 8px;
+	list-style: none;
+	text-align: center;
+	padding-top: 3px;
+	padding-left: 0 !important;
+	clear: none !important;
+}
+.edit_section ul li span.tooltiptext,
+.edit_section ul li span.tooltip {
+	width: max-content !important;
+}
+.edit_section ul li a {
+	width: 35px;
+	height: 35px;
+}
+.edit_section > a {
+	width: 35px;
+	height: 35px;
+	background: #d5d4d4;
+}
+.edit_section ul li.edit img,
+.edit_section ul li:before {
+	display: none !important;
+}
+.edit_section ul li.edit {
+	background: url(https://asset.sriresume.com/images/pencil_grey.webp) #d5d4d4 no-repeat center;
+}
+.edit_section ul li.edit:hover {
+	background: url(https://asset.sriresume.com/images/sr_e_hvr.png) #d5d4d4 no-repeat center;
+}
+.edit_section ul li.delete_sec {
+	background: url(https://asset.sriresume.com/images/sr_del.png) #d5d4d4 no-repeat center;
+}
+.edit_section ul li.reorder {
+	background: url(https://asset.sriresume.com/images/sr_ord.png) #d5d4d4 no-repeat center;
+}
+.edit_section ul li.delete_sec:hover {
+	background: url(https://asset.sriresume.com/images/sr_d_hvr.png) #d5d4d4 no-repeat center;
+}
+.edit_section ul li.reorder:hover {
+	background: url(https://asset.sriresume.com/images/sr_o_hvr.png) #d5d4d4 no-repeat center;
+}
+ul.ul_wth_mrgn {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.edit_section a {
+	display: block;
+	line-height: 0;
+}
+.edit_section img {
+	height: auto !important;
+	width: auto !important;
+	margin: 0 !important;
+	float: none !important;
+}
+#diffrancete {
+	clear: both;
+	float: left;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	position: relative;
+	width: 100%;
+	min-height: 22px;
+}
+.firstline {
+	background-color: #fbb764;
+	float: left;
+	height: 1px;
+	margin-top: 11px;
+	width: 375px;
+}
+#diffrancete .foldericon {
+	background-image: url(/assets/folder_icon.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	float: left;
+	height: 22px;
+	left: 50%;
+	margin-left: -22px;
+	position: absolute;
+	width: 44px;
+}
+#diffrancete .secondline {
+	background-color: #fbb764;
+	float: right;
+	height: 1px;
+	margin-top: 11px;
+	width: 375px;
+}
+#diffrancete {
+	float: unset !important;
+}
+.sr_sgnr {
+	width: 50%;
+	float: left;
+	margin-right: 5%;
+}
+.font1 {
+	--h2-font-size: 17pt;
+	--h3-font-size: 14pt;
+	--p-font-size: 11pt;
+}
+.font2 {
+	--h2-font-size: 18pt;
+	--h3-font-size: 15pt;
+	--p-font-size: 12pt;
+}
+.font3 {
+	--h2-font-size: 19pt;
+	--h3-font-size: 16pt;
+	--p-font-size: 13pt;
+}
+.font4 {
+	--h2-font-size: 20pt;
+	--h3-font-size: 17pt;
+	--p-font-size: 16pt;
+}
+.font5 {
+	--h2-font-size: 21pt;
+	--h3-font-size: 18pt;
+	--p-font-size: 18pt;
+}
+.font6 {
+	--h2-font-size: 22pt;
+	--h3-font-size: 19pt;
+	--p-font-size: 16pt;
+}
+.font7 {
+	--h2-font-size: 23pt;
+	--h3-font-size: 20pt;
+	--p-font-size: 17pt;
+}
+.font8 {
+	--h2-font-size: 24pt;
+	--h3-font-size: 21pt;
+	--p-font-size: 18pt;
+}
+.font9 {
+	--h2-font-size: 25pt;
+	--h3-font-size: 21pt;
+	--p-font-size: 19pt;
+}
+.font10 {
+	--h2-font-size: 26pt;
+	--h3-font-size: 22pt;
+	--p-font-size: 20pt;
+}
+.line_height0 * {
+	line-height: 1;
+}
+.line_height1 * {
+	line-height: 1.1;
+}
+.line_height2 * {
+	line-height: 1.2;
+}
+.line_height3 * {
+	line-height: 1.3;
+}
+.line_height4 * {
+	line-height: 1.4;
+}
+.line_height5 * {
+	line-height: 1.5;
+}
+.line_height6 * {
+	line-height: 1.6;
+}
+.line_height7 * {
+	line-height: 1.7;
+}
+.line_height8 * {
+	line-height: 1.8;
+}
+.line_height9 * {
+	line-height: 1.9;
+}
+.line_height10 * {
+	line-height: 2;
+}
+.encl {
+	margin-bottom: 25px;
+	width: 100%;
+	float: left;
+}
+.coverletter {
+	max-width: 900px;
+	overflow: auto;
+	padding-bottom: 30px;
+}
+.coverletter .sr_tp_wrpr {
+	max-width: 900px;
+	margin-left: 0;
+	margin-right: auto;
+}
+.tamplate3,
+.sr_tp_wrpr {
+	font-size: 10pt;
+	background-color: #fff;
+}
+ul {
+	padding-left: 0;
+}
+ul li {
+	list-style-position: inside;
+}
+ul.no-bullt > li {
+	list-style: none;
+}
+ul.one_half_list li {
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+.cstm_dt_ul li {
+	list-style: none;
+	padding-left: 12px;
+	position: relative;
+}
+.cstm_dt_ul li::before {
+	content: '';
+	display: block;
+	width: 4px;
+	height: 4px;
+	background: #000;
+	position: absolute;
+	left: 0;
+	top: 7px;
+}
+.sr_txt_ctr {
+	text-align: center;
+}
+.flt_rght {
+	float: right;
+}
+.flt_lft {
+	float: left;
+}
+.sr_cntt_rw .inr_ctt,
+.sr_clr {
+	width: 100%;
+	float: left;
+}
+.sr_tmp_ly_thrd {
+	width: 100%;
+	float: left;
+}
+.sr_tmp_ly_thrd .sr_thrd {
+	width: 33.333%;
+	float: left;
+}
+.sr_tw_prt .sr_t_lt {
+	width: 250px;
+	float: left;
+}
+.sr_tw_prt .sr_t_rt {
+	width: calc(100% - 250px);
+	float: left;
+}
+.inr_ctt:not(:last-child) {
+	margin-bottom: 10px;
+	width: 100%;
+	float: left;
+}
+.inr_ctt .ex_smry {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+}
+.sr_tp_grap .inr_ctt ul li {
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.inr_ctt.coloums2 .trad_column {
+	width: 50% !important;
+	float: left;
+}
+.inr_ctt.coloums3 .trad_column {
+	width: 33.33% !important;
+	float: left;
+}
+.inr_ctt.coloums2 .trad_column:not(:last-child) {
+	padding-right: 15px;
+}
+.inr_ctt.coloums3 .trad_column:not(:last-child) {
+	padding-right: 10px;
+}
+.clsignature {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.clsignature img {
+	width: 140px;
+}
+.data_sign {
+	width: 100%;
+	float: left;
+}
+.clcondate,
+.manageraddress,
+.mngname {
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+}
+.clcontent {
+	width: 100%;
+	float: left;
+}
+.clref {
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+}
+.clref span {
+	font-weight: 700;
+}
+.font1 .c100.big {
+	font-size: 63pt;
+}
+.font2 .c100.big {
+	font-size: 65pt;
+}
+.font3 .c100.big {
+	font-size: 68pt;
+}
+.font4 .c100.big {
+	font-size: 72pt;
+}
+.font5 .c100.big {
+	font-size: 75pt;
+}
+.font6 .c100.big {
+	font-size: 78pt;
+}
+.font7 .c100.big {
+	font-size: 81pt;
+}
+.font8 .c100.big {
+	font-size: 83pt;
+}
+.font9 .c100.big {
+	font-size: 85pt;
+}
+.font10 .c100.big {
+	font-size: 88pt;
+}
+.graphs-grid {
+	width: 100%;
+	display: table;
+}
+.graphs-grid .graph-item .graph-label,
+.rsm-sml-sec .graph-item .graph-label {
+	text-align: center;
+	margin-top: 5px;
+}
+.sr-page-break {
+	clear: both !important;
+	page-break-inside: avoid;
+}
+.graph-item img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.graphs-grid .graph-item {
+	display: inline-table;
+	width: 32%;
+	margin-bottom: 20px;
+	padding-right: 5px;
+}
+.rsm-sml-sec {
+	display: block;
+}
+.rsm-sml-sec .graph-item {
+	display: block;
+	width: 100%;
+}
+.rsm-sml-sec .graph-item {
+	margin-bottom: 20px;
+}
+.tamplate24 .graphs-grid,
+.tamplate24 .rsm-sml-sec,
+.tamplate27 .graphs-grid,
+.tamplate27 .rsm-sml-sec,
+.tamplate29 .graphs-grid,
+.tamplate29 .rsm-sml-sec {
+	width: 100%;
+	display: table;
+}
+.tamplate24 .graphs-grid .graph-item,
+.tamplate24 .rsm-sml-sec .graph-item,
+.tamplate27 .graphs-grid .graph-item,
+.tamplate27 .rsm-sml-sec .graph-item,
+.tamplate29 .graphs-grid .graph-item,
+.tamplate29 .rsm-sml-sec .graph-item {
+	display: inline-table !important;
+	width: 50%;
+	margin-bottom: 20px;
+	padding-right: 5px;
+}
+.gr-img-size1 .graph-item img {
+	width: 69.6px;
+	height: 69.6px;
+}
+.gr-img-size2 .graph-item img {
+	width: 92.8px;
+	height: 92.8px;
+}
+.gr-img-size3 .graph-item img {
+	width: 116px;
+	height: 116px;
+}
+.gr-img-size4 .graph-item img {
+	width: 139.2px;
+	height: 139.2px;
+}
+.gr-img-size5 .graph-item img {
+	width: 162.4px;
+	height: 162.4px;
+}
+.skills-grid .skill-item .shri-color {
+	background: #ffba00;
+}
+.tamplate27 .skill-item .shri-color {
+	background: #f29122;
+}
+.skills-grid .skill-item .black-color {
+	background: #000;
+}
+.skills-grid .skill-item .blue-color {
+	background: #133172;
+}
+.skills-grid .skill-item .light-blue-color {
+	background: #347bbf;
+}
+.skills-grid .skill-item .green-color {
+	background: #00c853;
+}
+.skills-grid .skill-item .red-color {
+	background: #f44336;
+}
+.skills-grid {
+	margin-top: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 8px 30px;
+}
+.skills-grid.skill-grid-single {
+	display: block;
+	margin-top: 15px;
+}
+.skills-grid.skill-grid-single .skill-item {
+	margin-bottom: 5px;
+}
+.skills-grid .skill-item .level {
+	width: 100%;
+	background-color: #bfbfbf;
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-top: 2px;
+	page-break-inside: avoid;
+}
+.skills-grid .skill-item .level .basic {
+	height: 10px;
+	width: 25%;
+}
+.skills-grid .skill-item .level .intermediate {
+	height: 10px;
+	width: 50%;
+}
+.skills-grid .skill-item .level .advanced {
+	height: 10px;
+	width: 75%;
+}
+.skills-grid .skill-item .level .expert {
+	height: 10px;
+	width: 100%;
+}
+.skills-grid .skill-item {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	grid-column-gap: 8px;
+}
+.skills-grid.skill-grid-single .skill-item {
+	grid-column-gap: 15px;
+}
+.skills-grid .skill-item p.skill-item-name,
+.skills-grid.skill-grid-single .skill-item p.skill-item-name {
+	word-wrap: break-word;
+	page-break-inside: avoid;
+}
+.tamplate29 .language p,
+.tamplate23 li span {
+	word-wrap: break-word;
+	page-break-inside: avoid;
+}
+.skills-grid .skill-item .skill-level-section .level {
+	margin-top: 7px;
+}
+@media print {
+	.skills-grid .skill-item {
+		page-break-before: always;
+	}
+	.skills-grid.skill-grid-single .skill-item {
+		page-break-inside: avoid;
+		page-break-before: unset !important;
+	}
+}
+.tamplate22 .skills-grid .skill-item .skill-level-section,
+.tamplate24 .skills-grid .skill-item .skill-level-section,
+.tamplate19 .skills-grid .skill-item .skill-level-section,
+.tamplate20 .skills-grid .skill-item .skill-level-section,
+.tamplate26 .skills-grid .skill-item .skill-level-section,
+.tamplate34 .skills-grid .skill-item .skill-level-section {
+	justify-self: end;
+}
+.tamplate22 .skills-grid .skill-item .level,
+.tamplate24 .skills-grid .skill-item .level,
+.tamplate19 .skills-grid .skill-item .level,
+.tamplate20 .skills-grid .skill-item .level,
+.tamplate26 .skills-grid .skill-item .level,
+.tamplate34 .skills-grid .skill-item .level {
+	background-color: unset;
+}
+.tamplate22 .skills-grid .skill-item .level > img,
+.tamplate24 .skills-grid .skill-item .level > img,
+.tamplate19 .skills-grid .skill-item .level > img,
+.tamplate20 .skills-grid .skill-item .level > img,
+.tamplate26 .skills-grid .skill-item .level > img,
+.tamplate34 .skills-grid .skill-item .level > img {
+	height: 8pt;
+	vertical-align: middle;
+}
+.corporate-resume .resume-content .section.sr_edu1 .subtitle ul li:before,
+.corporate-resume .resume-content .section .content li::before,
+.corporate-resume .references-content .reference-section .ref-right .ref-content li:before,
+.coverletter .clcontent ul li:before,
+.corporateWithStyle-resume .resume-content .section.sr_edu .sub-section ul li:before,
+.corporateWithStyle-resume .resume-content .section .content li::before,
+.corporateWithStyle-resume
+	.references-content
+	.reference-section
+	.ref-right
+	.ref-content
+	li::before,
+.coverletter .clcontent ul li:before,
+.traditional-Light-resume .resume-body .section .sub-section .sub-section-title li::before,
+.traditional-Light-resume .resume-body .section .section-body .section-body-content li::before,
+.coverletter .clcontent ul li:before,
+.traditional-Heavy-resume .resume-body .section .section-body .section-body-content li::before,
+.traditional-Heavy-resume .resume-body .section .sub-section .sub-section-title li::before,
+.coverletter .clcontent ul li:before,
+.leanAndCool-resume .resume-body .section .section-body .section-body-content li::before,
+.coverletter .clcontent ul li:before,
+.the-seeker-resume .resume-body .section .section-body .section-body-content ul li::before,
+.coverletter .clcontent ul li:before,
+.smart-and-Balanced .resume-body .about-me ul li:before,
+.smart-and-Balanced .resume-body .section .section-body .section-body-content ul li::before,
+.coverletter .clcontent ul li:before,
+.modern-conemporary .resume-body .section .section-body .section-body-content ul li::before,
+.coverletter .clcontent ul li:before,
+.sr_tmp9 ul:not(.no-bullt) li::before,
+.sr_tmp10 ul:not(.no-bullt) li::before,
+.sr_tmp11 ul:not(.no-bullt) li::before,
+.sr_tmp12 ul:not(.no-bullt) li::before,
+.sr_tmp13 ul:not(.no-bullt) li::before,
+.sr_tmp14 ul:not(.no-bullt) li::before,
+.sr_tmp15 ul:not(.no-bullt) li::before,
+.sr_tmp16 ul:not(.no-bullt) li::before,
+.sr_tmp17 ul:not(.no-bullt) li::before,
+.sr_tmp18 ul:not(.no-bullt) li::before,
+.resume-nip-tuck .section .section-info-details li::before,
+.resume-nip-tuck .section .project-head .project-label li::before,
+.resume-template-1 .section .section-body-content li::before,
+.rsm2 ul:not(.no-bullt) li:before,
+.resume-temp-8 .section .section-content li::before,
+.word .section .section-content li::before,
+.resume-temp-7 .section .section-content li::before,
+.resume-temp-6 .section .section-content li::before,
+.rsm4 .rsm_cntt ul li::before,
+.rsm5 .rsm_cntt ul li::before,
+.rsm3 ul li::before,
+.rsm1 ul li::before,
+.rsm1 .contact ul li::before,
+.coverletter-nip-tuck .cover-letter-content li::before,
+.coverletter-template-1 .coverletter-body li::before {
+	position: absolute;
+	display: inline-block !important;
+}
+.line_height1 .content_item li::before {
+	transform: translate(-200%, 100%);
+}
+.line_height2 .content_item li::before {
+	transform: translate(-200%, 130%);
+}
+.line_height3 .content_item li::before {
+	transform: translate(-200%, 165%);
+}
+.line_height4 .content_item li::before {
+	transform: translate(-200%, 190%);
+}
+.line_height5 .content_item li::before {
+	transform: translate(-200%, 200%);
+}
+.line_height6 .content_item li::before {
+	transform: translate(-200%, 210%);
+}
+.line_height7 .content_item li::before {
+	transform: translate(-200%, 220%);
+}
+.line_height8 .content_item li::before {
+	transform: translate(-200%, 230%);
+}
+.line_height9 .content_item li::before {
+	transform: translate(-200%, 250%);
+}
+.line_height10 .content_item li::before {
+	transform: translate(-200%, 270%);
+}
+.corporate-resume .resume-content .section.sr_edu1 .subtitle ul li:before,
+.corporate-resume .resume-content .section .content li::before,
+.corporate-resume .references-content .reference-section .ref-right .ref-content li:before,
+.coverletter .clcontent ul li:before,
+.corporateWithStyle-resume .resume-content .section.sr_edu .sub-section ul li:before,
+.corporateWithStyle-resume .resume-content .section .content li::before,
+.corporateWithStyle-resume
+	.references-content
+	.reference-section
+	.ref-right
+	.ref-content
+	li::before,
+.coverletter .clcontent ul li:before,
+.traditional-Light-resume .resume-body .section .sub-section .sub-section-title li::before,
+.traditional-Light-resume .resume-body .section .section-body .section-body-content li::before,
+.coverletter .clcontent ul li:before,
+.traditional-Heavy-resume .resume-body .section .section-body .section-body-content li::before,
+.traditional-Heavy-resume .resume-body .section .sub-section .sub-section-title li::before,
+.coverletter .clcontent ul li:before,
+.leanAndCool-resume .resume-body .section .section-body .section-body-content li::before,
+.coverletter .clcontent ul li:before,
+.the-seeker-resume .resume-body .section .section-body .section-body-content ul li::before,
+.coverletter .clcontent ul li:before,
+.smart-and-Balanced .resume-body .about-me ul li:before,
+.smart-and-Balanced .resume-body .section .section-body .section-body-content ul li::before,
+.coverletter .clcontent ul li:before,
+.modern-conemporary .resume-body .section .section-body .section-body-content ul li::before,
+.coverletter .clcontent ul li:before,
+.resume-nip-tuck .section .section-info-details li::before,
+.resume-nip-tuck .section .project-head .project-label li::before,
+.resume-template-1 .section .section-body-content li::before,
+.resume-temp-8 .section .section-content li::before,
+.word .section .section-content li::before,
+.resume-temp-7 .section .section-content li::before,
+.resume-temp-6 .section .section-content li::before,
+.coverletter-nip-tuck .cover-letter-content li::before,
+.coverletter-template-1 .coverletter-body li::before,
+.rsm2 ul:not(.no-bullt) li:before {
+	transform: translate(-200%, 0%);
+}
+.rsm4 .rsm_cntt ul li::before,
+.rsm5 .rsm_cntt ul li::before,
+.rsm3 ul li::before,
+.rsm1 ul li::before,
+.rsm1 .contact ul li::before {
+	transform: translate(-200%, 0%) !important;
+}
+.coverletter .sr_tp_wrpr ul li::before {
+	transform: translate(-200%, 200%) !important;
+}
+.content_item .edit_section ul li::before {
+	display: none !important;
+}
+.avoid-in-pgbrk {
+	page-break-inside: avoid;
+}
+.content_item .word * {
+	font-family: times new roman, Times, serif !important;
+}
+.content_item .word p strong,
+.content_item .word h2 {
+	font-family: times new roman, Times, serif !important;
+}
+.sr_wrd_brk span {
+	width: 20px;
+	float: left;
+	margin-right: 5px;
+}
+
+.ql-align-right {
+	text-align: right;
+}
+
+.ql-align-center {
+	text-align: center;
+}
+
+.ql-align-justify {
+	text-align: justify;
+}

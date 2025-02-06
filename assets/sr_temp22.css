@@ -1,0 +1,445 @@
+@font-face {
+	font-family: AvenirLight;
+	src: url('https://asset.sriresume.com/templateCss/Avenir_35_Light.ttf');
+}
+
+@font-face {
+	font-family: AvenirMedium;
+	src: url('https://asset.sriresume.com/templateCss/Avenir_65_Medium.ttf');
+}
+
+@font-face {
+	font-family: Arial;
+	src: url('https://asset.sriresume.com/templateCss/ArialMT.woff');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.pdf h2 {
+	font-family: AvenirMedium;
+	/*font-size: 23pt;*/
+	letter-spacing: 8pt;
+	text-transform: uppercase;
+}
+
+.pdf h3 {
+	font-family: AvenirMedium;
+	/*font-size: 11pt;*/
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.pdf p {
+	font-family: AvenirLight;
+	/*font-size: 8pt;*/
+}
+
+.resume-temp-8 ul {
+	list-style: none;
+	/*font-size: 8pt;*/
+	font-family: AvenirLight;
+}
+
+.resume-temp-8 .section-content li {
+	margin-left: 10px;
+	position: relative;
+}
+
+.resume-temp-8 .section .section-content li::before {
+	content: '\2022';
+	margin-right: 8px;
+	/* position: absolute;
+     left: -10px;
+     top: 1px; */
+	font-family: sans-serif;
+}
+
+/*--- word fonts --- */
+.word h2 {
+	font-family: Arial;
+	/*font-size: 23pt;*/
+	letter-spacing: 8pt;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.word h3 {
+	font-family: Arial;
+	/*font-size: 11pt;*/
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.word p {
+	font-family: Arial;
+	/*font-size: 8pt;*/
+}
+
+.word ul {
+	list-style: none;
+	/*font-size: 8pt;*/
+	font-family: Arial;
+}
+
+.word .section .section-content li {
+	margin-left: 10px;
+	position: relative;
+}
+
+.word .section .section-content li::before {
+	content: '\2022';
+	margin-right: 8px;
+	/* position: absolute;
+     left: -10px;
+     top: 1px; */
+	font-family: Arial;
+}
+
+/*------------------- */
+
+.resume-temp-8 .header {
+	padding-bottom: 19pt;
+	padding-top: 20pt;
+	padding-right: 19pt;
+}
+
+.resume-temp-8 .header,
+.resume-temp-8 .resume-body .left {
+	padding-left: 19pt;
+}
+
+.resume-temp-8 .header .profession {
+	/*font-size: 9pt;*/
+	letter-spacing: 4pt;
+	text-transform: uppercase;
+	overflow: hidden;
+	margin-top: 7.5pt;
+}
+
+.resume-temp-8 .header .profession:after {
+	content: '';
+	display: inline-block;
+	height: 0.5em;
+	vertical-align: bottom;
+	width: 50%;
+	margin-right: -100%;
+	margin-left: 10px;
+	border-top: 2px solid #bbbdbf;
+	vertical-align: middle;
+}
+
+.resume-temp-8 .resume-body {
+	display: table;
+	width: 100%;
+}
+
+.resume-temp-8 .resume-body .left {
+	display: table-cell;
+	width: 60%;
+	background-color: #bbbdbf54;
+	padding-right: 15pt;
+}
+
+.resume-temp-8 .resume-body .right {
+	display: table-cell;
+	width: 40%;
+	background: #ffffff;
+	padding-left: 15pt;
+	padding-right: 19pt;
+}
+
+.resume-temp-8 .section {
+	padding-bottom: 15pt;
+	margin-top: 15pt;
+	border-bottom: 2px solid #bbbdbf;
+}
+
+.resume-temp-8 .section .section-title {
+	margin-bottom: 7.5pt;
+}
+
+.resume-temp-8 .section .section-title h3 img {
+	vertical-align: middle;
+	margin-right: 7.5pt;
+}
+
+.resume-temp-8 .section .sub-section {
+	margin-bottom: 11pt;
+}
+
+.resume-temp-8 .section .experience .sub-section .sub-section-head .postion {
+	font-family: AvenirMedium;
+	font-weight: bold;
+}
+
+.resume-temp-8 .section .experience {
+	/* text-transform: capitalize; */
+}
+
+.resume-temp-8 .section .experience .sub-section .sub-section-head .postion,
+.resume-temp-8 .section .experience .sub-section .sub-section-head .company-details {
+	display: table;
+	width: 100%;
+}
+
+.resume-temp-8 .section .experience .sub-section .sub-section-head .postion p,
+.resume-temp-8 .section .experience .sub-section .sub-section-head .company-details p {
+	display: table-cell;
+	width: 50%;
+}
+
+.resume-temp-8 .section .experience .sub-section .sub-section-head .postion .time,
+.resume-temp-8 .section .experience .sub-section .sub-section-head .company-details .adrress {
+	text-align: end;
+}
+
+.resume-temp-8 .section .sub-section .sub-section-content {
+	margin-top: 10px;
+}
+
+.resume-temp-8 .section .project .project-head .project-info,
+.resume-temp-8 .section .project .project-head .project-label {
+	display: table;
+	width: 100%;
+}
+
+.resume-temp-8 .section .project .project-head .project-info .project-num,
+.resume-temp-8 .section .project .project-head .project-label .label {
+	display: table-cell;
+	width: 35%;
+}
+
+.resume-temp-8 .section .project .project-head .project-info .project-name,
+.resume-temp-8 .section .project .project-head .project-label .label-content {
+	display: table-cell;
+	width: 75%;
+	text-align: start;
+}
+
+.resume-temp-8 .section .project .project-head .project-info .project-num {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.resume-temp-8 .section .delcration {
+	display: table;
+	width: 100%;
+	margin-top: 15pt;
+}
+
+.resume-temp-8 .section .delcration .user-sign,
+.resume-temp-8 .section .delcration .place {
+	display: table-cell;
+	width: 50%;
+}
+
+.resume-temp-8 .section .delcration .user-sign img {
+	border-bottom: 1.5px solid #bbbdbf;
+}
+
+.resume-temp-8 .section .delcration .user-sign .full-name {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.resume-temp-8 .section .delcration .place {
+	vertical-align: middle;
+}
+
+.resume-temp-8 .section .coloums2,
+.resume-temp-8 .section .coloums3 {
+	display: table;
+	width: 100%;
+}
+
+.resume-temp-8 .section .coloums2 .col {
+	display: table-cell;
+	width: 50%;
+	padding-left: 3px;
+}
+
+.resume-temp-8 .section .coloums3 .col {
+	display: table-cell;
+	width: 33%;
+	padding-left: 3px;
+}
+
+.resume-temp-8 .section .contact p {
+	margin-bottom: 7.5pt;
+}
+
+.resume-temp-8 .section .contact p img {
+	height: 15pt;
+	vertical-align: middle;
+	margin-right: 7.5pt;
+	background-size: cover;
+}
+
+.resume-temp-8 .section .section-content .proficiency-level ul li img {
+	vertical-align: middle;
+	padding-left: 3px;
+}
+
+.resume-temp-8 .section .section-content .proficiency-level .title {
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 7.5pt 0 5px 0;
+}
+
+.resume-temp-8 .section:last-child {
+	border: none;
+}
+
+.resume-temp-8 .section .personal-info ul li {
+	display: table;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.resume-temp-8 .section .personal-info ul li .label {
+	display: table-cell;
+	width: 40%;
+	font-weight: bold;
+}
+
+.resume-temp-8 .section .personal-info ul li .label-details {
+	display: table-cell;
+	width: 60%;
+}
+
+/*----- Referenec css --- */
+
+.resume-temp-8 .reference {
+	padding-right: 15pt;
+	padding-left: 19pt;
+}
+
+.resume-temp-8 .reference .ref-head {
+	border-bottom: 1.8px solid black;
+	line-height: 1.9;
+	margin-top: 15pt;
+	margin-bottom: 15pt;
+	padding-bottom: 5pt;
+}
+
+.resume-temp-8 .reference .ref-head h3 img {
+	vertical-align: middle;
+	margin-right: 7.5pt;
+}
+
+.resume-temp-8 .reference .ref-section {
+	padding-bottom: 15pt;
+}
+
+.resume-temp-8 .reference .ref-section .name {
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.9;
+}
+
+.resume-temp-8 .reference .ref-section p span {
+	margin-right: 3px;
+}
+
+.resume-temp-8 .reference .ref-section p .label {
+	font-weight: bold;
+}
+
+.resume-temp-8 .reference .ref-row {
+	width: 100%;
+}
+
+.resume-temp-8 .reference .ref-row .ref-section {
+	float: left;
+	width: 48%;
+	padding-right: 5pt;
+	margin-bottom: 22pt;
+}
+
+.resume-temp-8 .reference .ref-row .ref-section {
+	clear: both;
+}
+
+/* for column partition */
+.section-content.coloums2 .trad_column {
+	width: 50% !important;
+	float: left;
+}
+
+.section-content.coloums3 .trad_column {
+	width: 33.33% !important;
+	float: left;
+}
+.section-content.coloums2 .trad_column:not(:last-child) {
+	padding-right: 15px;
+}
+.section-content.coloums3 .trad_column:not(:last-child) {
+	padding-right: 10px;
+}
+
+/*------------------- */
+
+.resume-temp-8 .resume-body .left .computer-proficiency {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-right: 5px;
+	margin-bottom: 7.5pt;
+}
+
+/*.resume-temp-8 .resume-body .left .computer-proficiency .proficiency-level::after{
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+.resume-temp-8 .resume-body .left .engineering-technology {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-right: 5px;
+	margin-bottom: 7.5pt;
+}
+
+/*.resume-temp-8 .resume-body .left .engineering-technology .proficiency-level::after{
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+/* .resume-temp-8 .section .section-content li::before,
+.word  .section .section-content li::before{
+    position: unset;
+    display: inline-block;
+    margin-right: 0.9%;
+    margin-bottom: 2px;
+} */
+
+/* -------------  Fonts -------------- */
+
+.resume-temp-8 h2 {
+	font-size: calc(var(--h2-font-size) + 3pt);
+}
+
+.resume-temp-8 .header .profession {
+	font-size: calc(var(--h3-font-size) - 4pt);
+}
+
+.resume-temp-8 h3 {
+	font-size: calc(var(--h3-font-size) - 5pt);
+}
+
+.resume-temp-8 p,
+.resume-temp-8 ul li,
+.resume-temp-8 span,
+.resume-temp-8 label {
+	font-size: calc(var(--p-font-size) - 7pt);
+}
+
+/*.resume-template-1 h3 {
+    font-size: var(--h2-font-size);
+}*/
+
+/* ----------------------------------------- */

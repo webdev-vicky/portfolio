@@ -1,0 +1,109 @@
+header.svelte-1vud2bh.svelte-1vud2bh {
+    z-index: 9;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+header.svelte-1vud2bh .topWap.svelte-1vud2bh {
+    width: 100%;
+    background-color: #f98e0d;
+    max-height: 44px;
+    padding: 7px 0 7px 5px;
+}
+header.svelte-1vud2bh .topWap a.svelte-1vud2bh {
+    display: inline-flex;
+    gap: 36px;
+}
+header.svelte-1vud2bh .topWap a strong.svelte-1vud2bh {
+    font-size: 1.25rem;
+    color: #fff;
+}
+header.svelte-1vud2bh p.svelte-1vud2bh {
+    font-size: 1.25rem;
+    color: #999;
+    font-weight: 400;
+    padding: 2.5px 0 2.5px 69px;
+    box-shadow: 0 0 15px #00000080;
+    background: #fff;
+    width: 100%;
+}
+main.svelte-1vud2bh.svelte-1vud2bh {
+    width: 100%;
+}
+.clr_float.svelte-1vud2bh.svelte-1vud2bh:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.actResume.svelte-1vud2bh.svelte-1vud2bh {
+    position: relative;
+    max-width: 1069px;
+    width: 100%;
+    overflow-y: auto;
+    /* max-height: 712px; */
+    margin: auto;
+}
+.actResume.svelte-1vud2bh .resumeContentBox.svelte-1vud2bh {
+    max-width: 1029px;
+    margin: auto;
+}
+
+.mainPageWapGri.svelte-1vud2bh.svelte-1vud2bh {
+    position: relative;
+    grid-template-columns: 1fr 335px;
+}
+@media (max-width: 1120px) {
+    .mainPageWapGri.svelte-1vud2bh.svelte-1vud2bh {
+        grid-template-columns: 1fr;
+    }
+}
+.mainPageWapGri.svelte-1vud2bh .desils_sec.svelte-1vud2bh {
+    position: relative;
+}
+.mainPageWapGri.svelte-1vud2bh .desils_sec .det-box.svelte-1vud2bh {
+    position: fixed;
+    width: 100%;
+    max-width: 335px;
+    height: 100%;
+    max-height: 83vh;
+    overflow-y: auto;
+    right: 5px;
+    height: auto;
+    background: #f2f2f2;
+    padding: 60px 25px;
+}
+@media (max-width: 1120px) {
+    .mainPageWapGri.svelte-1vud2bh .desils_sec .det-box.svelte-1vud2bh {
+        position: static;
+        max-width: 100%;
+        max-height: unset;
+    }
+}
+.mainPageWapGri.svelte-1vud2bh .desils_sec .det-box h2.svelte-1vud2bh {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+.mainPageWapGri.svelte-1vud2bh .desils_sec .det-box .seces_waps.svelte-1vud2bh {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 23px;
+}
+.mainPageWapGri.svelte-1vud2bh
+    .desils_sec
+    .det-box
+    .seces_waps
+    .secWqp
+    h3.svelte-1vud2bh {
+    font-size: 14px;
+    font-weight: 700;
+}
+.mainPageWapGri.svelte-1vud2bh
+    .desils_sec
+    .det-box
+    .seces_waps
+    .secWqp
+    p.svelte-1vud2bh {
+    font-size: 14px;
+    font-weight: 400;
+}
